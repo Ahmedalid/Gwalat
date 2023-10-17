@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.6.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <script type='text/javascript' src=''></script>
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+    <script type='text/javascript' src=''></script>
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <!-- <link rel="stylesheet" href="content/CSS/style.css"> -->
+
+ 
+    <title>عربة التسوق</title>
+</head>
+
+<body style="background-color:  rgba(250, 251, 251);">
+  <!-- Sraty To Header -->
+  <header class="main-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="ashal-header">
+                    <p>The Easiest and Fastest instalment system.</p>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-md-3">
+           <a href="installments.html" class="text-dec"> <span><i class="fa-solid fa-wallet m-header"></i></span><span> Pay Installment</span></a>
+                    </div>
+                    <div class="col-md-3">
+                        <span><i class="fa-solid fa-phone-volume"></i></span> <span> Call 19900</span>
+                    </div>
+                    <div class="col-md-3">
+               <a href="Our-branches.html" class="text-dec"><span><i class="fa-solid fa-house-laptop m-header"></i></span> <span> Store Locator</span></a>  
+                    </div>
+                    <div class="col-md-3">
+                        <span><i class="fa-solid fa-earth-asia m-header"></i></span> <span>العربي</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2">
+                <img src="img/Aman_Logo_1_ (1).png" alt="logo" class="logo">
+            </div>
+            <div class="col-lg-6">
+                <div class="mt-4">
+
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="ابحث عن المنتجات">
+
+                </div>
+            </div>
+            <div class="col-lg-4 text-end">
+                <div class="d-flex justify-content-around mt-4">
+                    <div class="login">
+                        <a href="login.html" class="text-decoration"> Login or Register</a>
+                    </div>
+                    <div class="shopping-cart">
+                  <a href="Card.html" class="text-decoration">    <span class="fs-4 "><i class=" mt-5 fa-solid fa-cart-shopping"></i></span></a>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<header class="responsive-header d-lg-none d-md-none">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4">
+                <div class="text-center mt-3">
+                    <button class="btn border-0 fs-3 text-white" id="mobile-menu"><i
+                            class="fa-solid fa-bars"></i>
+                      </button>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="text-center">
+                    <img src="img/Aman_Logo_1_ (1).png" alt="logo" class="logo">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="text-center mt-4">
+                    <span class="fs-3"><i class="fa-solid fa-cart-shopping"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="p-3">
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder=" Search Products ">
+            </div>
+        </div>
+    </div>
+</header>
+<div id="responsive-nav" class="responsive-nav d-lg-none d-md-none">
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    موبايلات
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+
+                    <ul class="list-style-ul list-s-n-header p-2">
+                        <li><a href="#" class="fw-bold">تسوق جميع الموبايلات</a></li>
+                        <li><a href="#"> موبايل ابل</a></li>
+                        <li><a href="#"> موبايل سامسونج</a></li>
+                        <li><a href="#"> موبايل شاومي</a></li>
+                        <li><a href="#"> موبايل اوبو</a></li>
+                        <li><a href="#"> موبايل ريلمي</a></li>
+                        <li><a href="#"> موبايل نوكيا</a></li>
+                        <li><a href="#"> موبايل الكاتيل</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    اكسسوارات الموبايل
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul class="list-style-ul p-2">
+                        <li><a href="#" class="fw-bold">تسوق جميع اكسسوارات الموبايلات</a></li>
+                        <li><a href="#"> باور بانك</a></li>
+                        <li><a href="#"> شواحن و محولات</a></li>
+                        <li><a href="#"> كبلات و وصلات</a></li>
+                        <li><a href="#"> سماعات الاذن</a></li>
+                        <li><a href="#"> اسكرينات</a></li>
+                        <li><a href="#"> كسسوارات ساعة ذكية </a></li>
+                        <li><a href="#"> الساعة الذكية</a></li>
+                        <li><a href="#"> بطاقات الذاكرة</a></li>
+                        <li><a href="#"> جرابات و حافظات </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    تابلت
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul class="list-style-ul p-2">
+                        <li><a href="#" class="fw-bold">تسوق جميع اكسسوارات الموبايلات</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    الهواتف المميزة
+                </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul class="list-style-ul p-2">
+                        <li><a href="#" class="fw-bold">تسوق جميع الهواتف المميزة</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- End Top Header -->
+<!-- Start NavBar -->
+<div class="nav accessories w-100">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg w-100">
+            <div class="container-body">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse m-0 " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      
+                    
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="account.html">  EID Offers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active"   aria-current="page" href="#">   Mobiles & Tablets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"> Televisions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">  Large Appliances</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"> Small Appliances </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="dir-Account Information.html">  Kitchen Appliances</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Purchase.html">Electronics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="LogIn.html"> Laptops & PCs </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="ForgetPasword.html"> Health & Beauty  </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Shop.html">  Vehicles</a>
+                        </li>
+
+
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<!-- End NavBar -->
+<div class="container">
+    <div class="shop-car text-center mt-5 ">
+        MY CART
+      <p class="mt-3 text-secondary">You have 2 products in your cart</p>
+    </div>
+
+<div class="container">
+  <div class="row">
+    
+    <div class="col-lg-8 ">
+      <div class="shopping-cart justify-content-around mt-3  w-100">
+      <div class="row">
+        <div class="col-sm-3 img-card-1">
+          <span><img src="img/1 (1).png" alt=""></span>
+        </div>
+        <div class="col-sm-6">
+          <span>
+            Sony Bluetooth Wireless Over-Ear Headphones With Mic, Black - WH-CH710N
+          </span>
+          <div class="mt-5 d-flex justify-content-around">
+            <span class="text-secondary">Select Qty </span>
+            <div class="d-flex ">
+              <span><i class="fa-solid fa-arrow-up-long cursor-pointer"></i></span>
+              <input type="number" class="input-shop-card form-control"></span>
+              <span><i class="fa-solid fa-arrow-down-long cursor-pointer"></i></span>
+             
+            </div>
+            <span> 
+          </div><div class="border-shop-card mt-4 w-100"></div>
+        </div>
+        <div class="col-sm-3 ">
+          <div class="d-flex icone-h-d">
+            <span> <i class="fa-solid fa-heart m-header-i"></i></span>
+            <span><i class="fa fa-trash d-pascte m-header-i" aria-hidden="true"></i></span>
+          </div>
+        <div class=" d-flex m-2 number-card-shop">
+          <h6  class="pl-4 "><del>58258</del></h6>
+          <h5 class="slary-card">545212</h5>
+        
+        </div>
+        </div>
+        <!-- <div class="col-sm-1">1</div> -->
+      </div>
+      </div>
+      <div class="col-sm-12 mt-5 Rae-installments">
+        <div class="d-flex">
+          <span>Or Pay with Raya Installments starting From455 / 6 Months with Raya Installments </span>
+          <a href="" class="mt-2"> More Payment Methods</a>
+        </div>
+      </div>
+      <div class="border-solid w-100 mt-4"></div>
+    </div>
+    <div class="col-lg-4 Payment-Summary">
+      <h4> Payment Summary</h4>
+      <div class="mt-4">
+        <div class="justify-content-between d-flex">
+          <span class="text-secondary">Subtotal</span>
+          <span class="text-secondary">9,353.56 ج م  </span>
+        </div>
+        <div class="justify-content-between d-flex mt-3">
+          <span class="text-secondary"> Shipping Fees   </span>
+       
+          <span class="text-secondary">9,353.56 ج م  </span>
+        </div>
+        <!-- <div class="border-shop mt-3"></div> -->
+        <div class="justify-content-between d-flex mt-3">
+          <span class="text-secondary"> Total VAT Included   </span>
+       
+          <span><h4 class="total-shop">9,353.56 ج م </h4> </span>
+         
+        </div>
+        <button class="button-shop-total mt-5 w-100">pay With Raya Installment</button>
+        <div class="border-shop mt-4"></div>
+        <button class="button-shop-tot mt-4 w-100"> Proceed To checkout</button>
+        <div class="mt-5 text-center">
+          <span class="mt-4">
+            <img src="img/master.png" class="mt-5 img-shop" alt="">
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-8 ">
+      <div class="shopping-cart justify-content-around mt-3  w-100">
+      <div class="row">
+        <div class="col-sm-3 img-card-1">
+          <span><img src="img/1 (1).png" alt=""></span>
+        </div>
+        <div class="col-sm-6">
+          <span>
+            Sony Bluetooth Wireless Over-Ear Headphones With Mic, Black - WH-CH710N
+          </span>
+          <div class="mt-5 d-flex justify-content-around">
+            <span class="text-secondary">Select Qty </span>
+            <div class="d-flex ">
+              <span><i class="fa-solid fa-arrow-up-long cursor-pointer"></i></span>
+              <input type="number" class="input-shop-card form-control"></span>
+              <span><i class="fa-solid fa-arrow-down-long cursor-pointer"></i></span>
+             
+            </div>
+            <span> 
+          </div><div class="border-shop-card mt-4 w-100"></div>
+        </div>
+        <div class="col-sm-3 ">
+          <div class="d-flex icone-h-d">
+            <span> <i class="fa-solid fa-heart m-header-i"></i></span>
+            <span><i class="fa fa-trash d-pascte m-header-i" aria-hidden="true"></i></span>
+          </div>
+        <div class=" d-flex m-2 number-card-shop">
+          <h6  class="pl-4 "><del>58258</del></h6>
+          <h5 class="slary-card">545212</h5>
+        
+        </div>
+        </div>
+        <!-- <div class="col-sm-1">1</div> -->
+      </div>
+      </div>
+      <div class="col-sm-12 mt-5 Rae-installments">
+        <div class="d-flex">
+          <span>Or Pay with Raya Installments starting From455 / 6 Months with Raya Installments </span>
+          <a href="" class="mt-2"> More Payment Methods</a>
+        </div>
+      </div>
+      <div class="border-solid w-100 mt-4"></div>
+    </div>
+    <div class="col-lg-8 ">
+      <div class="shopping-cart justify-content-around mt-3  w-100">
+      <div class="row">
+        <div class="col-sm-3 img-card-1">
+          <span><img src="img/1 (1).png" alt=""></span>
+        </div>
+        <div class="col-sm-6">
+          <span>
+            Sony Bluetooth Wireless Over-Ear Headphones With Mic, Black - WH-CH710N
+          </span>
+          <div class="mt-5 d-flex justify-content-around">
+            <span class="text-secondary">Select Qty </span>
+            <div class="d-flex ">
+              <span><i class="fa-solid fa-arrow-up-long cursor-pointer"></i></span>
+              <input type="number" class="input-shop-card form-control"></span>
+              <span><i class="fa-solid fa-arrow-down-long cursor-pointer"></i></span>
+             
+            </div>
+            <span> 
+          </div><div class="border-shop-card mt-4 w-100"></div>
+        </div>
+        <div class="col-sm-3 ">
+          <div class="d-flex icone-h-d">
+            <span> <i class="fa-solid fa-heart m-header-i"></i></span>
+            <span><i class="fa fa-trash d-pascte m-header-i" aria-hidden="true"></i></span>
+          </div>
+        <div class=" d-flex m-2 number-card-shop">
+          <h6  class="pl-4 "><del>58258</del></h6>
+          <h5 class="slary-card">545212</h5>
+        
+        </div>
+        </div>
+        <!-- <div class="col-sm-1">1</div> -->
+      </div>
+      </div>
+      <div class="col-sm-12 mt-5 Rae-installments">
+        <div class="d-flex">
+          <span>Or Pay with Raya Installments starting From455 / 6 Months with Raya Installments </span>
+          <a href="" class="mt-2"> More Payment Methods</a>
+        </div>
+      </div>
+      <div class="border-solid w-100 mt-4"></div>
+    </div>
+  </div>
+
+<div class="d-flex">
+<div class="mt-4 arrows-icone">
+ <span class="arrows-icone-shop-card"><i class="fa-solid fa-left-long"></i></span>
+</div>
+<span class=" span-icon-card mb-3"><a href=""> Continue Shopping</a></span>
+</div>
+
+<div class="mt-5 text-center">
+  <h3 class="you-card">قد يعجبك ايضا</h3>
+</div>
+
+
+
+
+</div>
+
+  
+ 
+
+
+</div>
+
+
+
+         <!-- Footer -->
+         <footer class="page-footer">
+          <div class="container-fluid">
+              <div class="row pt-4">
+                  <div class="col-1"></div>
+                  <div class="col-md-2">
+                      <h4>عن الشركة</h4>
+                      <ul class="footer-ul p-0">
+                          <li><a href="">من نحن</a></li>
+                          <li><a href="">الفروع</a></li>
+                          <li><a href="">تقسيط</a></li>
+                          <li><a href="">امان بلاس </a></li>
+                      </ul>
+                  </div>
+                  <div class="col-md-2">
+                      <h4>خدمة العملاء</h4>
+                      <ul class="footer-ul p-0">
+  
+                          <li><a href="">لايف شات</a></li>
+                          <li><a href="">الاسئلة الشائعة</a></li>
+                          <li><a href="">اتصل بنا </a></li>
+                      </ul>
+                  </div>
+                  <div class="col-md-2">
+                      <h4>المزيد </h4>
+                      <ul class="footer-ul p-0">
+                          <li><a href="">عروض التقسيط </a></li>
+                          <li><a href="">سياسة الاستخدام</a></li>
+                          <li><a href="">سياسة الخصوصية</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-md-2">
+                      <h4>تحميل التطبيق </h4>
+                      <ul class="footer-ul p-0">
+                          <li><a href="">
+                                  <i class="fa-brands fa-apple pr-3"></i> App store
+                              </a></li>
+                          <li><a href="">
+                                  <i class="fa-brands fa-google-play"></i> Google play
+                              </a></li>
+  
+                      </ul>
+                  </div>
+                  <div class="col-md-2">
+                      <h4>سجل للنشرة</h4>
+                      <ul class="footer-ul p-0">
+                          <li><a href="">اشترك في النشرة الاخبارية </a></li>
+                          <li><input type="email" placeholder="E-mail (ex@gmail.com)" class="footer-inp">
+                              <button class="btn footer-btn"><i class="fa-solid fa-arrow-left text-white"></i></button>
+                          </li>
+  
+                      </ul>
+                  </div>
+                  <div class="col-1"></div>
+              </div>
+              <div class="row">
+  
+                  <div class="col-md-4">
+                      <div class="d-flex justify-content-around">
+                          <span><a href="" class="text-white fs-4"><i class="fa-brands fa-instagram"></i></a></span>
+                          <span><a href="" class="text-white fs-4"><i class="fa-brands fa-facebook-f"></i></a></span>
+                          <span><a href="" class="text-white fs-4"><i class="fa-brands fa-linkedin-in"></i></a></span>
+                          <span><a href="" class="text-white fs-4"><i class="fa-brands fa-whatsapp"></i></a></span>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="text-center">
+                          ©2023 - active4web | جميع الحقوق محفوظة
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="d-flex justify-content-around">
+                          <div class="footer-img">
+                              <img src="content/images/products/visa.JPG" alt="">
+                          </div>
+                          <div class="footer-img">
+                              <img src="content/images/masterCard.svg" alt="">
+                          </div>
+                          <div class="footer-img">
+                              <img src="content/images/valu.png" alt="">
+                          </div>
+                          <div class="footer-img">
+                              <img src="content/images/premium-card.png" alt="">
+                          </div>
+  
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
+ <!-- Footer -->
+    <!-- end Footer  -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+    
+<script src="Js/main.js"></script>
+
+    <script src="Js/all.min.js"></script>
+    <script src="Js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script type='text/javascript'>$('.carousel .carousel-item').each(function () {
+var minPerSlide = 4;
+var next = $(this).next();
+if (!next.length) {
+next = $(this).siblings(':first');
+}
+next.children(':first-child').clone().appendTo($(this));
+
+for (var i = 0; i < minPerSlide; i++) { next=next.next(); if (!next.length) { next=$(this).siblings(':first'); } next.children(':first-child').clone().appendTo($(this)); } });
+</script>
+<script>
+    var promoCode;
+var promoPrice;
+var fadeTime = 300;
+
+/* Assign actions */
+$(".quantity input").change(function () {
+  updateQuantity(this);
+});
+
+$(".remove button").click(function () {
+  removeItem(this);
+});
+
+$(document).ready(function () {
+  updateSumItems();
+});
+
+$(".promo-code-cta").click(function () {
+  promoCode = $("#promo-code").val();
+
+  if (promoCode == "10off" || promoCode == "10OFF") {
+    //If promoPrice has no value, set it as 10 for the 10OFF promocode
+    if (!promoPrice) {
+      promoPrice = 10;
+    } else if (promoCode) {
+      promoPrice = promoPrice * 1;
+    }
+  } else if (promoCode != "") {
+    alert("Invalid Promo Code");
+    promoPrice = 0;
+  }
+  //If there is a promoPrice that has been set (it means there is a valid promoCode input) show promo
+  if (promoPrice) {
+    $(".summary-promo").removeClass("hide");
+    $(".promo-value").text(promoPrice.toFixed(2));
+    recalculateCart(true);
+  }
+});
+
+/* Recalculate cart */
+function recalculateCart(onlyTotal) {
+  var subtotal = 0;
+
+  /* Sum up row totals */
+  $(".basket-product").each(function () {
+    subtotal += parseFloat($(this).children(".subtotal").text());
+  });
+
+  /* Calculate totals */
+  var total = subtotal;
+
+  //If there is a valid promoCode, and subtotal < 10 subtract from total
+  var promoPrice = parseFloat($(".promo-value").text());
+  if (promoPrice) {
+    if (subtotal >= 10) {
+      total -= promoPrice;
+    } else {
+      alert("Order must be more than £10 for Promo code to apply.");
+      $(".summary-promo").addClass("hide");
+    }
+  }
+
+  /*If switch for update only total, update only total display*/
+  if (onlyTotal) {
+    /* Update total display */
+    $(".total-value").fadeOut(fadeTime, function () {
+      $("#basket-total").html(total.toFixed(2));
+      $(".total-value").fadeIn(fadeTime);
+    });
+  } else {
+    /* Update summary display. */
+    $(".final-value").fadeOut(fadeTime, function () {
+      $("#basket-subtotal").html(subtotal.toFixed(2));
+      $("#basket-total").html(total.toFixed(2));
+      if (total == 0) {
+        $(".checkout-cta").fadeOut(fadeTime);
+      } else {
+        $(".checkout-cta").fadeIn(fadeTime);
+      }
+      $(".final-value").fadeIn(fadeTime);
+    });
+  }
+}
+
+/* Update quantity */
+function updateQuantity(quantityInput) {
+  /* Calculate line price */
+  var productRow = $(quantityInput).parent().parent();
+  var price = parseFloat(productRow.children(".price").text());
+  var quantity = $(quantityInput).val();
+  var linePrice = price * quantity;
+
+  /* Update line price display and recalc cart totals */
+  productRow.children(".subtotal").each(function () {
+    $(this).fadeOut(fadeTime, function () {
+      $(this).text(linePrice.toFixed(2));
+      recalculateCart();
+      $(this).fadeIn(fadeTime);
+    });
+  });
+
+  productRow.find(".item-quantity").text(quantity);
+  updateSumItems();
+}
+
+function updateSumItems() {
+  var sumItems = 0;
+  $(".quantity input").each(function () {
+    sumItems += parseInt($(this).val());
+  });
+  $(".total-items").text(sumItems);
+}
+
+/* Remove item from cart */
+function removeItem(removeButton) {
+  /* Remove row from DOM and recalc cart total */
+  var productRow = $(removeButton).parent().parent();
+  productRow.slideUp(fadeTime, function () {
+    productRow.remove();
+    recalculateCart();
+    updateSumItems();
+  });
+}
+$("#Discount").click(function(){
+  $("#input").toggle()
+})
+
+let mobileMenu = document.getElementById("mobile-menu");
+let responsiveNav = document.getElementById("responsive-nav");
+responsiveNav.style.display == "none";
+mobileMenu.addEventListener("click", () => {
+    if (responsiveNav.style.display === "none") {
+        responsiveNav.style.display = "block";
+    }
+    else {
+        responsiveNav.style.display = "none";
+    }
+})
+
+</script>
+</body>
+
+</html>
